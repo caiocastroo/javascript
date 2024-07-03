@@ -120,3 +120,56 @@ Variáveis: nota1,nota2,media
 Entrada: nota1,nota2
 Processamento: media = (nota1 + nota2) / 2
 Saída: media
+________________________________________________________________________
+Exemplo 2:
+Desenvolver um app modo console para cálculo de porcentagem:
+Ex: 10% DE 200 = 20
+      x     y    valor
+
+Algorítmo: 
+
+valor * 100 = y * x
+
+y------------- 100%
+valor ----------- x
+
+valor x 100 = 200 x 10
+valor = 2000/100
+valor = 20
+
+valor = (x * y) / 100 //formula de porcentagem
+
+//Variáveis
+x,y,valor
+
+//entrada
+x,y
+
+//Processamento
+valor = (x * y) / 100
+
+//Saída
+valor
+
+________________________________________________________________________
+Exercício:
+Desenvolver um app para calcular valor do desconto:
+Ex: 
+Valor total: 200.00
+Desconto: 5%
+total com desconto: 10.00
+
+200     100
+valor    5
+
+200*5 = 100/valor
+1000 = 100/valor
+valor = 10
+
+
+console.log(`${total} reais o valor total com ${desconto}% de desconto fica no de valor final de: ${totalDesconto.toFixed(2)}`)
+
+Exercício 2:
+Desenvolver um app no console para conversão de moeda (real para euro)
+
+Exercício 
