@@ -5,6 +5,8 @@
 
 //importar po pacote readline-sync 
 const input = require('readline-sync')
+const colors = require(`colors`)
+
 
 //Variáveis
 let nota1, nota2, media
@@ -18,4 +20,15 @@ nota2 = Number(input.question("Digite a nota2:"))
 //Processamneto
 media = (nota1 + nota2) / 2
 //saida 
-console.log(`Média: ${media.toFixed(1)}`)
+
+console.log(`Média: ${media.toFixed(2)}`)
+//exemplo de uso da estrura if  if - else
+if (media < 2) {
+    console.log("REPROVADO".red)
+} else if (media >= 2 && media < 5) {
+    console.log("RECUPERAÇÃO".yellow)
+} else {
+    console.log("APROVADO".blue)
+}
+
+

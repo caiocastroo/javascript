@@ -172,4 +172,54 @@ console.log(`${total} reais o valor total com ${desconto}% de desconto fica no d
 Exercício 2:
 Desenvolver um app no console para conversão de moeda (real para euro)
 
-Exercício 
+______________________________________________________________
+Estrutura de controle
+
+condicionais
+if if-else (encadeamento/aninhamento else-if) switch-case 
+
+repetições
+for while do-white 
+
+if (condição) {
+      //condição verdadeira
+}
+
+if condição {
+      //condição verdadeira
+}else {
+            //condição falsa
+      }
+
+      Observações:
+      1) sempe uma resposta será exibida indepedente da condição
+      2) Não pode existir uma condição verdadeira e falsa ao mesmo tempo
+      
+Exemplo do uso da estrura else if
+No exemplo calculo da média, estabelecer as seguites condiçoes:
+1) Se o aluno tiver média menor que 2 (REPROVADO)
+2) Se média do luno estiver entre 2 e 5 (RECUPERAÇÃO)
+3) Se a média for igual ou superior a 5 (APROVADO)
+
+Resumindo
+If(condição 1 ) {
+      //condição 1 verdadeira
+} else if(condição 2) {
+      //condição 2 verdadeira
+} else if(condição 3){
+      //condição 3 verdadeira
+} else {
+      //nenhuma das condições anteriores verdadeiras
+}
+OBS: o final não é obrigatório
+
+Exercicio 3;
+
+No Brasil, o voto pode ser proibido, obrigátorio ou facutativo, de arcodo com os seguintes critérios:
+
+idade menor que 16 (proibido votar)
+idade entre 18 e 70 (incluindo 18 e 70) (voto obrigatório)
+16,17 ou acima de 70 (voto facutativo)
+
+Desenvolva no console de js um APP para verificar em função da idade a obrigação ou não de votar
+
