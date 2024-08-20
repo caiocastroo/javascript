@@ -1,8 +1,4 @@
-/**
- * converter real para euro
- * @author Caio Castro
- */
-
+//código se o valor da variavel for igual a 2 break
 console.clear()
 const input = require('readline-sync')
 

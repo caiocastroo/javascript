@@ -223,3 +223,94 @@ idade entre 18 e 70 (incluindo 18 e 70) (voto obrigatório)
 
 Desenvolva no console de js um APP para verificar em função da idade a obrigação ou não de votar
 
+____________________________________________________________________________________________________________________________
+
+Estrutura de controle condicional: switch-case
+Sintase:
+variavel1 (número inteiro ou letra)
+Switch(variavel){
+      case: 1
+       //código se o valor da variavel for igual a 1 break
+      case 2:
+       //código se o valor da variavel for igual a 2 break
+      default:
+      //código se o valor for diferente usando 1 ou 2 break
+}
+
+____________________________________________________________________________________________________________________________
+Exercicio 4:
+
+Desenvolva no console do js um aplicativo que faça um sorteio de um jogo de dado
+
+⚃
+
+
+
+
+
+
+
+
+
+______________________________________________________________
+Estrutura de controle - laços de repetições
+for 
+while
+do-while
+
+
+For - estrututa de repetições finitas (determinadas)
+
+for (let i=1; condição; incremento/decremento) {
+      //inicio; repetir enquanto a condição verdadeira; i++ ou i--
+}
+
+//obs: a variavel declarada dentro da estrutura deve ser um numero inteiro
+
+
+while (condição){
+      // analisa a condição e executa o codigo enquanto a condição é verdadeira
+}
+
+do {
+      //sempre executa o codigo uma vez da indepedente da condição, depois se comporta como while
+
+}whilw (condição)
+
+//Funções JavaScript
+
+- literais (nome)
+
+- atribuidas (variavel) "Função anônima"
+São funções atribuida a uma constante ou variavel onde o resultado do Processamento da função armazenado 
+e pode ser utilizado, além disso funções atribuida podem ser simplificadas
+(arrow function)
+
+____________________________________________________________________________________________________________________________
+Poo
+
+- Abstração (classe modelo)
+- Herança
+- Porlimorfismo
+
+- Encapsulamento (segurança)
+
+Material de Apoio
+
+slide
+https://professorjosedeassis.github.io/javaSE/#/49
+
+Obs; Para criar a classe modelo usamos uma letra maiúscula no inicio
+
+No JavaScript a classe modelo é uma função
+
+Sempre que existir a palavra new um objeto é criado(instanciado)
+
+O ponto após o objeto é usado para acessar os recursos (atributos e métados ) da classe modelo
+
+Obs: Porlimorfismo
+Atenção: para reescrever um métado é necessário usar o MESMO nome do métado original
+
+Atividade 4: Avaliação idividual
+slides 62 a 67 (POO Exercicio)
+
