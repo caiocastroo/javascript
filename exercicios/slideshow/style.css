@@ -1,0 +1,29 @@
+/**
+ * Folha de estilo do carrosel de imagens
+ *  @author Caio Castro
+ */
+
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+ .container {
+    max-width: 1080px;
+    margin: 0 auto;
+ }
+
+ img {
+    max-width: 100%;
+ }
+
+ /* efeito fade controlado pelo js */
+
+ #slide.fadeOut {
+    opacity: 0.1; /* transparencia 0 a 1*/
+ }
+
+#slide{
+    transition: opacity 2s;
+    opacity: 1;
+}

@@ -314,3 +314,9 @@ Atenção: para reescrever um métado é necessário usar o MESMO nome do métad
 Atividade 4: Avaliação idividual
 slides 62 a 67 (POO Exercicio)
 
+Encapsulamento:
+
+- Reforço na segurança dos atributos (variáveis)
+
+Dica: get e set (acesso a variavel encapsulada)
+
